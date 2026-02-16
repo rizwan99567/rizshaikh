@@ -1,0 +1,56 @@
+name="Shaikh Rizwan"
+"""
+-----------------------------------------------------------------
+Positive Index	0	1	2	3	4	5	6	7	8	9	10	11	12	
+Character	    S	h	a	i	k	h		R	i	z	 w	 a	 n	
+Negative Index -13 -12 -11 -10 -9  -8  -7  -6  -5  -4	-3	-2	-1
+Character	    S	h	a	i	k	h	    R	i	z	 w	 a	 n	
+------------------------------------------------------------------
+"""
+
+print("Positive start - Positive end")
+print(name[0:7])
+print(name[7:14])
+print(name[4:12])
+print(name[2:7])
+print(name[7:10])
+print("========================")
+print("Negative start -Negative end")
+print("========================")
+print(name[-9:-6])
+print(name[-7:-2])
+print(name[-12:-4])
+print(name[-10:-5])
+print(name[-7:-2])
+print("========================")
+print("Positive start - Negative end")
+print("========================")
+print(name[0:-7])
+print(name[2:-3])
+print(name[5:-2])
+print(name[2:-7])
+print(name[7:-3])
+print("========================")
+print("Negative start - Positive end")
+print("========================")
+print(name[-14:7])
+print(name[-7:10])
+print(name[-12:5])
+print(name[-10:11])
+print(name[-6:14])
+print("========================")
+print("Positive step-size")
+print("========================")
+print(name[::1])
+print(name[::2])
+print(name[::3])
+print(name[::4])
+print(name[::5])
+print("========================")
+print("Negative step-size")
+print("========================")
+print(name[::-1])
+print(name[::-2])
+print(name[::-3])
+print(name[::-4])
+print(name[::-5])
